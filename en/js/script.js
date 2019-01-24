@@ -1,6 +1,6 @@
 if (isIndex()) {
   var indexPrepend = '';
-  var pagePrepend = '';
+  var pagePrepend = 'en/';
 }
 else {
   var indexPrepend = '../';
@@ -73,8 +73,8 @@ Vue.component('page-list', {
         { label: 'About', url: pagePrepend + 'about.html' },
         { label: 'Development', url: pagePrepend + 'development.html' },
         { label: 'Photography', url: pagePrepend + 'photography.html' },
-        { label: 'Design', url: pagePrepend + 'design.html' },
-        { label: 'CV', url: pagePrepend + 'en/CV.html' },
+        { label: 'Writing', url: pagePrepend + 'writing.html' },
+        { label: 'CV', url: pagePrepend + 'CV.html' },
         { label: 'Contact', url: pagePrepend + 'contact.html' },
       ]
     };
@@ -143,20 +143,25 @@ new Vue({
 });
 
 new Vue({
-  el: '#my-websites',
+  el: '#my-writing',
   data: {
-    websites: [
-      { title: 'Police-related Deaths', img: 'img/designs/police-deaths.png', demo: 'http://www.christinaharford.com/policedeaths', git: 'https://github.com/cgharford/educational-slider', description: 'Data-driven nodejs app to explore the statistics between police related deaths. '},
-      { title: 'Educational Slider', img: 'img/designs/educational-slider.png', demo: 'http://www.christinaharford.com/educational-slider/', git: 'https://github.com/cgharford/educational-slider', description: 'Educational slider on the outer space pictures taken by NASA.' },
-      { title: 'Senate Dashboard', img: 'img/designs/senate-seats-dashboard.png', demo: 'http://www.christinaharford.com/senate-seats-dashboard/', git: 'https://github.com/cgharford/senate-seats-dashboard', description: 'Data visualization for contested and noncontested seats in US Senate.' },
-      { title: 'Powering A Nation', img: 'img/designs/powering-a-nation.png', demo: 'http://www.christinaharford.com/powering-a-nation', git: 'https://github.com/cgharford/powering-a-nation', description: 'My first website that I coded from scratch. The images and videos were resources provided to me for a class project and I do not own them.' },
-      { title: 'Pet Dashboard', img: 'img/designs/pet-dashboard.png', demo: 'http://www.christinaharford.com/pet-dashboard/', git: 'https://github.com/cgharford/pet-dashboard', description: 'This is a data driven dashboard about pets that I created for a multimedia course.' },
-      { title: 'Election 2016', img: 'img/designs/presidential-election-2016.png', demo: 'http://www.christinaharford.com/presidential-election-2016/', git: 'https://github.com/cgharford/presidential-election-2016', description: 'API integration project focusing on the 2016 presidential election.' },
-      { title: 'Happy New Resolution', img: 'img/designs/happy-new-resolution.png', demo: 'http://www.christinaharford.com/happy-new-resolution/', git: 'https://github.com/cgharford/happy-new-resolution', description: 'Data visualization using D3 for 2015 New Years Resolutions.' },
-      { title: 'Blue Wave Labs', img: 'img/designs/blue-wave-labs.png', demo: 'http://www.bluewavelabs.com/', git: '', description: 'Website redesign for Blue Wave Labs consulting company made with my sister at Pearl Hacks.' },
-      { title: 'Tar Heel Trauma', img: 'img/designs/tar-heel-trauma.png', demo: 'http://tarheeltrauma.azurewebsites.net/', git: 'https://github.com/cgharford/educational-patient-games', description: 'Collection of children\'s safety games made for UNC hospital. My team worked on the burn prevention game for a class project.' },
-      { title: 'PDF to Dashboard', img: 'img/designs/pdf-to-dashboard.png', demo: 'http://www.christinaharford.com/pdf-to-dashboard/', git: 'https://github.com/cgharford/pdf-to-web-dashboard', description: 'I was given a PDF and asked to re-create the exact design for the web using HTML, CSS, and JavaScript.' },
+    writing: [
+      { title: 'The Tools and Tips of Immersive Learning', img: '../../img/travelMap.jpeg', article: pagePrepend + 'The Tools and Tips of Immersive Learning with Revisions.html', description: 'This is based off observations and experimentations from my first 4 months in Poland. When I was studying, I never found anything on the internet teaching how to optimize immersive language learning, so I decided to make an article on it myself. I originally wrote this to be presented at language conferences.' },
+    
     ]
+    
+//     websites: [
+//       { title: 'Police-related Deaths', img: 'img/designs/police-deaths.png', demo: 'http://www.christinaharford.com/policedeaths', git: 'https://github.com/cgharford/educational-slider', description: 'Data-driven nodejs app to explore the statistics between police related deaths. '},
+//       { title: 'Educational Slider', img: 'img/designs/educational-slider.png', demo: 'http://www.christinaharford.com/educational-slider/', git: 'https://github.com/cgharford/educational-slider', description: 'Educational slider on the outer space pictures taken by NASA.' },
+//       { title: 'Senate Dashboard', img: 'img/designs/senate-seats-dashboard.png', demo: 'http://www.christinaharford.com/senate-seats-dashboard/', git: 'https://github.com/cgharford/senate-seats-dashboard', description: 'Data visualization for contested and noncontested seats in US Senate.' },
+//       { title: 'Powering A Nation', img: 'img/designs/powering-a-nation.png', demo: 'http://www.christinaharford.com/powering-a-nation', git: 'https://github.com/cgharford/powering-a-nation', description: 'My first website that I coded from scratch. The images and videos were resources provided to me for a class project and I do not own them.' },
+//       { title: 'Pet Dashboard', img: 'img/designs/pet-dashboard.png', demo: 'http://www.christinaharford.com/pet-dashboard/', git: 'https://github.com/cgharford/pet-dashboard', description: 'This is a data driven dashboard about pets that I created for a multimedia course.' },
+//       { title: 'Election 2016', img: 'img/designs/presidential-election-2016.png', demo: 'http://www.christinaharford.com/presidential-election-2016/', git: 'https://github.com/cgharford/presidential-election-2016', description: 'API integration project focusing on the 2016 presidential election.' },
+//       { title: 'Happy New Resolution', img: 'img/designs/happy-new-resolution.png', demo: 'http://www.christinaharford.com/happy-new-resolution/', git: 'https://github.com/cgharford/happy-new-resolution', description: 'Data visualization using D3 for 2015 New Years Resolutions.' },
+//       { title: 'Blue Wave Labs', img: 'img/designs/blue-wave-labs.png', demo: 'http://www.bluewavelabs.com/', git: '', description: 'Website redesign for Blue Wave Labs consulting company made with my sister at Pearl Hacks.' },
+//       { title: 'Tar Heel Trauma', img: 'img/designs/tar-heel-trauma.png', demo: 'http://tarheeltrauma.azurewebsites.net/', git: 'https://github.com/cgharford/educational-patient-games', description: 'Collection of children\'s safety games made for UNC hospital. My team worked on the burn prevention game for a class project.' },
+//       { title: 'PDF to Dashboard', img: 'img/designs/pdf-to-dashboard.png', demo: 'http://www.christinaharford.com/pdf-to-dashboard/', git: 'https://github.com/cgharford/pdf-to-web-dashboard', description: 'I was given a PDF and asked to re-create the exact design for the web using HTML, CSS, and JavaScript.' },
+//     ]
   }
 });
 
