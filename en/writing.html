@@ -27,7 +27,7 @@
         <div class='website-container' >
           <div class="writing" id="my-writing">
             <div v-for="article in writing" class='col-lg-4 col-sm-6 website'>
-              <div class='website-title'> {{ site.title }} </div>
+              <div class='website-title'> {{ article.title }} </div>
                 <figure class='figure-cls'><img v-bind:src='site.img' class='design-img img-cls' >
                   <figcaption class='figcaption-cls'>
                     <p>
@@ -36,7 +36,7 @@
                     </p>
                   </figcaption>
                 </figure>
-              <div class='description-wrapper'><div class='website-description'> {{ site.description }} </div></div>
+              <div class='description-wrapper'><div class='website-description'> {{ article.description }} </div></div>
             </div>
           </div>
         </div>
