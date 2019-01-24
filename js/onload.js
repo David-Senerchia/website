@@ -8,7 +8,7 @@ function isIndex() {
   }
 }
 
-if (isIndex()) { var prepend = 'website/'; }
+if (isIndex()) { var prepend = ''; }
 else { var prepend = ''; }
 
 
@@ -30,7 +30,7 @@ var stylesheets = [
 /*** Entry point to load common files ***/
 function init() {
   // Adding all the header tags here for the sake of simpler html files
-  document.title = 'Christina Harford'
+  document.title = 'David Senerchia'
 
   var meta = document.createElement('meta');
   meta.charset = 'utf-8';
