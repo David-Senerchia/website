@@ -147,7 +147,7 @@ a:hover {
 }
 
 #first-image {
-  background-image: url("../img/travelMap.jpeg");
+  background-image: url("../../img/travelMap.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
