@@ -8,7 +8,7 @@ function isIndex() {
   }
 }
 
-if (isIndex()) { var prepend = 'my-website/'; }
+if (isIndex()) { var prepend = 'website/'; }
 else { var prepend = ''; }
 
 
