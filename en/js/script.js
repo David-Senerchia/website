@@ -1,6 +1,6 @@
 if (isIndex()) {
   var indexPrepend = '';
-  var pagePrepend = 'website/';
+  var pagePrepend = '';
 }
 else {
   var indexPrepend = '../';
