@@ -74,7 +74,7 @@ Vue.component('page-list', {
         { label: 'Development', url: pagePrepend + 'development.html' },
         { label: 'Photography', url: pagePrepend + 'photography.html' },
         { label: 'Design', url: pagePrepend + 'design.html' },
-        { label: 'CV', url: pagePrepend + 'en/html/cv/CV.html' },
+        { label: 'CV', url: pagePrepend + 'en/CV.html' },
         { label: 'Contact', url: pagePrepend + 'contact.html' },
       ]
     };
