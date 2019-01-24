@@ -1,4 +1,5 @@
 /*** Globals ***/
+
 function isIndex() {
   if ((window.location.pathname).indexOf('index.html') != -1 || window.location.pathname == '/') {
     return true;
