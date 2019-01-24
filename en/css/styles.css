@@ -147,12 +147,7 @@ a:hover {
 }
 
 #first-image {
-  background-image: url("../img/nyc.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#second-image {
-  background-image: url("../img/tractor.jpg");
+  background-image: url("../../img/travelMap.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
