@@ -108,7 +108,7 @@ Vue.component('banner', {
         { label: 'Designer', url: pagePrepend + 'design.html' },
       ],
       indexPage: [
-        { label: 'Christina Harford', url: indexPrepend + 'index.html' },
+        { label: 'David Senerchia', url: indexPrepend + 'index.html' },
       ]
     };
     return data;
