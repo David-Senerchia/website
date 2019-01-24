@@ -74,7 +74,7 @@ Vue.component('page-list', {
         { label: 'Development', url: pagePrepend + 'development.html' },
         { label: 'Photography', url: pagePrepend + 'photography.html' },
         { label: 'Design', url: pagePrepend + 'design.html' },
-        { label: 'Resume', url: pagePrepend + 'resume.html' },
+        { label: 'CV', url: pagePrepend + 'en/CV.html' },
         { label: 'Contact', url: pagePrepend + 'contact.html' },
       ]
     };
@@ -108,7 +108,7 @@ Vue.component('banner', {
         { label: 'Designer', url: pagePrepend + 'design.html' },
       ],
       indexPage: [
-        { label: 'Christina Harford', url: indexPrepend + 'index.html' },
+        { label: 'David Senerchia', url: indexPrepend + 'index.html' },
       ]
     };
     return data;
