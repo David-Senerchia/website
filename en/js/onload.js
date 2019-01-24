@@ -1,4 +1,3 @@
-
 /*** Globals ***/
 function isIndex() {
   if ((window.location.pathname).indexOf('index.html') != -1 || window.location.pathname == '/') {
@@ -10,7 +9,7 @@ function isIndex() {
 }
 
 if (isIndex()) { var prepend = ''; }
-else { var prepend = ''; }
+else { var prepend = 'en/'; }
 
 
 var commonLibs = [
