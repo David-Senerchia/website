@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <script src="js/onload.js"></script>
+</head>
+  <body id='writing'>
+    <div id="main">
+      <!-- Header  -->
+      <header>
+        <div id="header">
+          <page-list></page-list>
+          <nav><banner></banner></nav>
+        </div>
+      </header>
+      <!-- End of header  -->
+      <!-- Main content  -->
+      <div class='content'>
+        <div class='page-intro'>
+          <div class='page-title'>Design</div>
+          <div class='spacer'></div>
+          <div class='explanation-container'>
+            I have written a few of my observations about things I am passionate about. The most significant of which provided below.
+          </div>
+        </div>
+        <div class='row'></div>
+        <div class='website-container' >
+          <div class="writing" id="my-writing">
+            <div v-for="article in writing" class='col-lg-4 col-sm-6 website'>
+              <div class='website-title'> {{ article.title }} </div>
+                <figure class='figure-cls'><img v-bind:src='article.img' class='design-img img-cls' >
+                  <figcaption class='figcaption-cls'>
+                    <p>
+                     
+                      <a v-bind:href='article.article'><i class='website-icon fa fa-github fa-2x' aria-hidden='true' ></i></a>
+                    </p>
+                  </figcaption>
+                </figure>
+              <div class='description-wrapper'><div class='website-description'> {{ article.description }} </div></div>
+            </div>
+          </div>
+        </div>
+        <div class='row'></div>
+      </div>
+      <!-- End of content  -->
+      <div class='footer '></div>
+    </div>
+  </body>
+</html>
