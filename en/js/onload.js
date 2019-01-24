@@ -8,8 +8,8 @@ function isIndex() {
   }
 }
 
-if (isIndex()) { var prepend = ''; }
-else { var prepend = 'en/'; }
+if (isIndex()) { var prepend = 'en/'; }
+else { var prepend = ''; }
 
 
 var commonLibs = [
