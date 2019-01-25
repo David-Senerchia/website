@@ -9,7 +9,7 @@ function isIndex() {
   }
 }
 
-if (isIndex()) { var prepend = 'en/'; }
+if (isIndex()) { var prepend = '../en/'; }
 else { var prepend = ''; }
 
 
@@ -19,7 +19,7 @@ var commonLibs = [
 ]
 
 var personalScripts = [
-  'fr/js/script.js'
+  'js/script.js'
 ]
 
 var stylesheets = [
