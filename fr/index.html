@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <script src="fr/js/onload.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <page-list></page-list>
+        <banner>
+          <a v-for="img in americanFlag" v-bind:href='img.url'><span id='header-name'> <img src='../../img/americanflag.png' id='flag-img' /> <img src='../../img/frenchflag.jpg' id='flag-img' /> <img src='../../img/polishflag.jpg' id='flag-img' /></span></a>
+        </banner>
+      </div>
+      <div id='first-image'>
+        <div class='slide-content-container'>
+          <a href="index.html"><div class='name'>David Senerchia</div></a>
+          <div id='name-description'>
+            <a></a>
+          </div>
+        </div>
+      </div>
+      <div class='footer'></div>
+    </div>
+  </body>
+</html>
