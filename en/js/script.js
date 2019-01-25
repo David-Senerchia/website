@@ -145,7 +145,7 @@ new Vue({
   el: '#my-writing',
   data: {
     writing: [
-      { title: 'The Tools and Tips of Immersive Learning', img: '../../img/travelMap.jpeg', article: pagePrepend + 'The Tools and Tips of Immersive Learning with Revisions.html', description: 'This is based off observations and experimentations from my first 4 months in Poland. When I was studying, I never found anything on the internet teaching how to optimize immersive language learning, so I decided to make an article on it myself. I originally wrote this to be presented at language conferences.' },
+      { title: 'The Tools and Tips of Immersive Learning', img: '../../img/travelMap.jpeg', article: pagePrepend + 'The Tools and Tips of Immersive Learning with Revisions.html', description: 'This is based on observations and experimentations from my first 4 months in Poland. When I was studying, I never found anything on the internet teaching how to optimize immersive language learning, so I decided to make an article on it myself. I originally wrote this to be presented at language conferences.' },
     
     ]
     
