@@ -86,7 +86,7 @@ Vue.component('banner', {
     <span id="header-info">
       <a v-for="index in indexPage" v-bind:href='index.url'><span id='header-name'>{{ index.label }}</span></a>
       <span id='header-description'>
-        <a v-for="index in indexPage" v-bind:href='index.url'>{{ index.label }} </a> -
+        <a v-for="index in indexPage" v-bind:href='index.url'>{{ index.label }} </a>
       </span>
     </span>
     <i id="open-button" class="menu-icon fa fa-bars fa-2x" aria-hidden="true" onclick="openNav()"></i>
