@@ -247,6 +247,11 @@ a:hover {
     text-align: left;
 }
 
+#flag-img {
+  height: 20px;
+  width: 20px;
+}
+  
 .design-img {
     height: 350px;
     width: 350px;
