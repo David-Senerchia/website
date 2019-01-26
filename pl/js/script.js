@@ -69,12 +69,12 @@ Vue.component('page-list', {
   data: function () {
     var data = {
       pages: [
-        { label: 'Accueil', url: indexPrepend + 'fr/index.html' },
-        { label: 'À Propos de Moi', url: pagePrepend + 'about.html' },
-        { label: 'Développement', url: pagePrepend + 'development.html' },
-        { label: 'Écrits', url: pagePrepend + 'writing.html' },
+        { label: 'Strona Główna', url: indexPrepend + 'pl/index.html' },
+        { label: 'O Mnie', url: pagePrepend + 'about.html' },
+        { label: 'Stworzenie', url: pagePrepend + 'development.html' },
+        { label: 'Teksty', url: pagePrepend + 'writing.html' },
         { label: 'CV', url: pagePrepend + 'CV.html' },
-        { label: 'Contact', url: pagePrepend + 'contact.html' },
+        { label: 'Kontakt', url: pagePrepend + 'contact.html' },
       ]
     };
     return data;
