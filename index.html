@@ -16,13 +16,11 @@
           <a href='index.html'> <img src='../../img/polishflag.jpg' id='flag-img' /> </a>
           </span>
           
-          <div id='header-description'>
-            <a href='about.html'>About me</a> 
-            <a href='development.html'>Development</a>   
-            <a href='writing.html'>Writing</a>   
-            <a href='CV.html'>CV</a>   
-            <a href='contact.html'>Contact</a>     
-          </div>
+          <span id='header-description'>
+            <a v-for="page in developerPage" v-bind:href='page.url'>{{ page.label }} </a> -
+            <a v-for="page in photographerPage" v-bind:href='page.url'>{{ page.label }} </a> -
+            <a v-for="page in designPage" v-bind:href='page.url'>{{ page.label }} </a>
+          </span>
         </span>
       </div>
       <div id='first-image'>
