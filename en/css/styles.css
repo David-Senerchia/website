@@ -49,15 +49,15 @@ nav {
 }
 
 #header-description {
-  font-size: 18px;
+  font-size: 30px;
   display: block;
-  margin-top: 18px;
-  font-family: 'Quicksand';
-  color: #698abf;
+  margin-top: 8px;
+  font-family: 'Kaushan Script';
+  color: #515254;
 }
 
 #header-description a {
-  color: #698abf;
+  color: #515254;
 }
 
 #header-description a:hover {
@@ -155,7 +155,7 @@ a:hover {
 .footer {
   width: 100%;
   background-color: black;
-  height: 80px;
+  height: 40px;
 }
 
 #open-button {
@@ -247,6 +247,11 @@ a:hover {
     text-align: left;
 }
 
+#flag-img {
+  height: 20px;
+  width: 30px;
+}
+  
 .design-img {
     height: 350px;
     width: 350px;
@@ -371,8 +376,8 @@ a:hover {
 }
 
 #about-me-pic {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     float: right;
     padding: 20px;
 }
