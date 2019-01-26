@@ -1,6 +1,6 @@
 if (isIndex()) {
   var indexPrepend = '';
-  var pagePrepend = 'en/';
+  var pagePrepend = '';
 }
 else {
   var indexPrepend = '../';
