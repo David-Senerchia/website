@@ -69,10 +69,10 @@ Vue.component('page-list', {
   data: function () {
     var data = {
       pages: [
-        { label: 'Home', url: indexPrepend + 'index.html' },
-        { label: 'About', url: pagePrepend + 'about.html' },
-        { label: 'Development', url: pagePrepend + 'development.html' },
-        { label: 'Writing', url: pagePrepend + 'writing.html' },
+        { label: 'Accueil', url: indexPrepend + 'index.html' },
+        { label: 'Sur moi', url: pagePrepend + 'about.html' },
+        { label: 'Développement', url: pagePrepend + 'development.html' },
+        { label: 'Écrits', url: pagePrepend + 'writing.html' },
         { label: 'CV', url: pagePrepend + 'CV.html' },
         { label: 'Contact', url: pagePrepend + 'contact.html' },
       ]
@@ -108,13 +108,13 @@ Vue.component('banner', {
         { label: 'David Senerchia', url: indexPrepend + 'index.html' },
       ],
       americanFlag: [ 
-        { flag: '../../img/americanFlag.png', url: indexPrepend + 'index.html' },
+        { flag: '../../img/americanflag.png', url: indexPrepend + 'index.html' },
       ],
       frenchFlag: [
-        { flag: '../../img/frenchFlag.jpg', url: indexPrepend + 'index.html' },
+        { flag: '../../img/frenchflag.jpg', url: indexPrepend + 'index.html' },
       ],
       polishFlag: [
-        { flag: '../../img/polishFlag.jpg', url: indexPrepend + 'index.html' },
+        { flag: '../../img/polishflag.jpg', url: indexPrepend + 'index.html' },
       ]
     };
     return data;
