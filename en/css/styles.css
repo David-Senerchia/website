@@ -42,9 +42,9 @@ nav {
   position: absolute;
   top: 8px;
   left: 20px;
-  font-size: 30px;
+  font-size: 18px;
   display: block;
-  font-family: 'Kaushan Script';
+  font-family: 'Quicksand';
   color: #515254;
 }
 
@@ -56,9 +56,6 @@ nav {
   color: #515254;
 }
 
-#header-description a {
-  color: #515254;
-}
 
 #header-description a:hover {
   color: #eee;
