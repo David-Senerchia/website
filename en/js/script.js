@@ -84,6 +84,9 @@ Vue.component('page-list', {
 Vue.component('banner', {
   template: `<div id='index-header' class='header-strip'>
     <span id="header-info">
+      <span id='header-description'>
+        <a v-for="index in indexPage" v-bind:href='index.url'>{{ index.label }} </a>
+      </span>
     </span>
     <i id="open-button" class="menu-icon fa fa-bars fa-2x" aria-hidden="true" onclick="openNav()"></i>
     <i id="close-button" class="menu-icon fa fa-times fa-2x" aria-hidden="true" onclick="closeNav()"></i>
