@@ -1,6 +1,6 @@
 if (isIndex()) {
   var indexPrepend = '';
-  var pagePrepend = 'en/';
+  var pagePrepend = '';
 }
 else {
   var indexPrepend = '../';
@@ -69,7 +69,7 @@ Vue.component('page-list', {
   data: function () {
     var data = {
       pages: [
-        { label: 'Accueil', url: indexPrepend + 'index.html' },
+        { label: 'Accueil', url: indexPrepend + 'fr/index.html' },
         { label: 'Sur moi', url: pagePrepend + 'about.html' },
         { label: 'Développement', url: pagePrepend + 'development.html' },
         { label: 'Écrits', url: pagePrepend + 'writing.html' },
@@ -84,7 +84,6 @@ Vue.component('page-list', {
 Vue.component('banner', {
   template: `<div id='index-header' class='header-strip'>
     <span id="header-info">
-      <a v-for="img in americanFlag" v-bind:href='img.url'><span id='header-name'> <img src='../../img/americanflag.png' id='flag-img' /> <img src='../../img/frenchflag.jpg' id='flag-img' /> <img src='../../img/polishflag.jpg' id='flag-img' /></span></a>
       <span id='header-description'>
         <a v-for="index in indexPage" v-bind:href='index.url'>{{ index.label }} </a>
       </span>
