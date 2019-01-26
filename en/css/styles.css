@@ -56,7 +56,14 @@ nav {
   color: #515254;
 }
 
-
+#header-links {
+  text-align: center;
+  font-size: 30px;
+  display: block;
+  margin-top: 8px;
+  font-family: 'Quicksand';
+  color: #515254;
+}
 
 #header-description a:hover {
   color: #eee;
