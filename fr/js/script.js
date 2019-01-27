@@ -70,7 +70,7 @@ Vue.component('page-list', {
     var data = {
       pages: [
         { label: 'Accueil', url: indexPrepend + 'fr/index.html' },
-        { label: 'Sur moi', url: pagePrepend + 'about.html' },
+        { label: 'À Propos de Moi', url: pagePrepend + 'about.html' },
         { label: 'Développement', url: pagePrepend + 'development.html' },
         { label: 'Écrits', url: pagePrepend + 'writing.html' },
         { label: 'CV', url: pagePrepend + 'CV.html' },
@@ -151,7 +151,7 @@ new Vue({
   el: '#my-writing',
   data: {
     writing: [
-      { title: 'The Tools and Tips of Immersive Learning', img: '../../img/travelMap.jpeg', article: pagePrepend + 'The Tools and Tips of Immersive Learning with Revisions.html', description: 'This is based on observations and experimentations from my first 4 months in Poland. When I was studying, I never found anything on the internet teaching how to optimize immersive language learning, so I decided to make an article on it myself. I originally wrote this to be presented at language conferences.' },
+      { title: 'The Tools and Tips of Immersive Learning', img: '../../img/travelMap.jpeg', article: pagePrepend + 'The Tools and Tips of Immersive Learning with Revisions.html', description: 'Cet article est basé sur des observations et essais de mes 4 premiers mois en Pologne. Pendent que j\'étudiais, je n\'ai jamais rien trouvé sur internet au sujet d\'apprentissage immersif optimal des langues étrangères, donc j\'ai décidé faire un artile sur le sujet moi-même. À l\'origine, je l\'ai fait afin d\'être presenté aux conférences linguistiques. ' },
     
     ]
     
