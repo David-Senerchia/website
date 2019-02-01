@@ -70,7 +70,7 @@ Vue.component('page-list', {
     var data = {
       pages: [
         { label: 'Accueil', url: indexPrepend + 'fr/index.html' },
-        { label: 'À Propos de Moi', url: pagePrepend + 'about.html' },
+        { label: 'À Propos Moi', url: pagePrepend + 'about.html' },
         { label: 'Développement', url: pagePrepend + 'development.html' },
         { label: 'Écrits', url: pagePrepend + 'writing.html' },
         { label: 'CV', url: pagePrepend + 'CV.html' },
