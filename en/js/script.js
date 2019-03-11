@@ -183,6 +183,21 @@ new Vue({
 });
 
 new Vue({
+  el: '#kiev-album',
+  data: {
+    albums: [
+      { title: 'Kiev', img: 'kiev/kiev1.jpeg', album: 'kiev/kiev1.jpeg', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: 'kiev/kiev2.jpeg', album: 'kiev/kiev2.jpeg', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: 'kiev/kiev3.mov', album: 'kiev/kiev3.mov', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: 'kiev/kiev4.jpg', album: 'kiev/kiev4.jpg', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: 'kiev/kiev5.jpeg', album: 'kiev/kiev5.jpeg', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: 'kiev/kiev6.jpg', album: 'kiev/kiev4.jpg', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: 'kiev/kiev7.mov', album: 'kiev/kiev7.mov', description: 'Kiev, Ukraine' },
+    ]
+  }
+});
+
+new Vue({
   el: '#header'
 });
 
