@@ -176,7 +176,7 @@ new Vue({
   data: {
     albums: [
       { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
-      { title: 'Photoshoots', img: '../../img/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
+      { title: 'Photoshoots', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
     ]
   }
 });
