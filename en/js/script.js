@@ -176,8 +176,7 @@ new Vue({
   data: {
     albums: [
       { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
-      { title: 'Photoshoots', img: 'img/albums/photoshoots.jpg', album: '', description: 'Albums coming soon!' },
-      { title: 'Nature at UNC', img: 'img/albums/unc.jpg', album: 'http://www.christinaharford.com/pdf-to-dashboard/', description: 'Albums coming soon!' },
+      { title: 'Photoshoots', img: '../../img/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
     ]
   }
 });
@@ -192,6 +191,21 @@ new Vue({
       { title: '', img: '../../img/kiev/kiev5.jpeg', photo: '../../img/kiev/kiev5.jpeg', description: '' },
       { title: '', img: '../../img/kiev/kiev6.jpg', photo: '../../img/kiev/kiev6.jpg', description: '' },
       { title: '', img: '../../img/kiev/kiev3.mov', photo: '../../img/kiev/kiev3.mov', description: '' },
+      { title: '', img: '../../img/kiev/kiev7.mov', photo: '../../img/kiev/kiev7.mov', description: '' },
+    ]
+  }
+});
+
+new Vue({
+  el: '#warszawa-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/warszawa/warszawa1.jpg', photo: '../../img/warszawa/warszawa1.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa2.jpeg', photo: '../../img/warszawa/warszawa2.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa3.jpg', photo: '../../img/warszawa/warszawa3.jpg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa4.jpeg', photo: '../../img/warszawa/warszawa4.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa5.jpg', photo: '../../img/warszawa/warszawa5.jpg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa6.mov', photo: '../../img/warszawa/warszawa.mov', description: '' },
       { title: '', img: '../../img/kiev/kiev7.mov', photo: '../../img/kiev/kiev7.mov', description: '' },
     ]
   }
