@@ -25,17 +25,17 @@
         </div>
         <div class='row'></div>
         <div class='website-container' >
-          <div class="websites" id="kiev-album">
-            <div v-for="photo in photos" class='col-lg-4 col-sm-6 website'>
-              <div class='website-title'> {{ photo.title }} </div>
-                <figure class='figure-cls'><img v-bind:src='photo.img' class='design-img img-cls' >
+          <div class="websites" id="my-albums">
+            <div v-for="album in albums" class='col-lg-4 col-sm-6 website'>
+              <div class='website-title'> {{ album.title }} </div>
+                <figure class='figure-cls'><img v-bind:src='album.img' class='design-img img-cls' >
                   <figcaption class='figcaption-cls'>
                     <p>
-                      <a v-bind:href='photo.photo'><i class='picture-icon fa fa-picture-o fa-2x' aria-hidden='true' ></i></a>&nbsp;
+                      <a v-bind:href='album.album'><i class='picture-icon fa fa-picture-o fa-2x' aria-hidden='true' ></i></a>&nbsp;
                     </p>
                   </figcaption>
                 </figure>
-              <div class='description-wrapper'><div class='website-description'> {{ photo.description }} </div></div>
+              <div class='description-wrapper'><div class='website-description'> {{ album.description }} </div></div>
             </div>
           </div>
         </div>
