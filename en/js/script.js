@@ -186,13 +186,13 @@ new Vue({
   el: '#kiev-album',
   data: {
     photos: [
-      { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', photo: '../../img/kiev/kiev1.jpeg', description: 'Kiev, Ukraine' },
-      { title: 'Kiev', img: '../../img/kiev/kiev2.jpeg', photo: '../../img/kiev/kiev2.jpeg', description: 'Kiev, Ukraine' },
-      { title: 'Kiev', img: '../../img/kiev/kiev4.jpg', photo: '../../img/kiev/kiev4.jpg', description: 'Kiev, Ukraine' },
-      { title: 'Kiev', img: '../../img/kiev/kiev5.jpeg', photo: '../../img/kiev/kiev5.jpeg', description: 'Kiev, Ukraine' },
-      { title: 'Kiev', img: '../../img/kiev/kiev6.jpg', photo: '../../img/kiev/kiev6.jpg', description: 'Kiev, Ukraine' },
-      { title: 'Kiev', img: '../../img/kiev/kiev3.mov', photo: '../../img/kiev/kiev3.mov', description: 'Kiev, Ukraine' },
-      { title: 'Kiev', img: '../../img/kiev/kiev7.mov', photo: '../../img/kiev/kiev7.mov', description: 'Kiev, Ukraine' },
+      { title: '', img: '../../img/kiev/kiev1.jpeg', photo: '../../img/kiev/kiev1.jpeg', description: '' },
+      { title: '', img: '../../img/kiev/kiev2.jpeg', photo: '../../img/kiev/kiev2.jpeg', description: '' },
+      { title: '', img: '../../img/kiev/kiev4.jpg', photo: '../../img/kiev/kiev4.jpg', description: '' },
+      { title: '', img: '../../img/kiev/kiev5.jpeg', photo: '../../img/kiev/kiev5.jpeg', description: '' },
+      { title: '', img: '../../img/kiev/kiev6.jpg', photo: '../../img/kiev/kiev6.jpg', description: '' },
+      { title: '', img: '../../img/kiev/kiev3.mov', photo: '../../img/kiev/kiev3.mov', description: '' },
+      { title: '', img: '../../img/kiev/kiev7.mov', photo: '../../img/kiev/kiev7.mov', description: '' },
     ]
   }
 });
