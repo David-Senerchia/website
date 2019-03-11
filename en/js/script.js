@@ -185,7 +185,7 @@ new Vue({
 new Vue({
   el: '#kiev-album',
   data: {
-    albums: [
+    photos: [
       { title: 'Kiev', img: '../../img/kiev1.jpeg', album: '../../img/kiev1.jpeg', description: 'Kiev, Ukraine' },
       { title: 'Kiev', img: '../../img/kiev2.jpeg', album: '../../img/kiev2.jpeg', description: 'Kiev, Ukraine' },
       { title: 'Kiev', img: '../../img/kiev3.mov', album: '../../img/kiev3.mov', description: 'Kiev, Ukraine' },
