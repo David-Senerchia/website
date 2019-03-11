@@ -175,7 +175,7 @@ new Vue({
   el: '#my-albums',
   data: {
     albums: [
-      { title: 'Kiev', img: '../../img/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
       { title: 'Photoshoots', img: 'img/albums/photoshoots.jpg', album: '', description: 'Albums coming soon!' },
       { title: 'Nature at UNC', img: 'img/albums/unc.jpg', album: 'http://www.christinaharford.com/pdf-to-dashboard/', description: 'Albums coming soon!' },
     ]
@@ -186,7 +186,7 @@ new Vue({
   el: '#kiev-album',
   data: {
     photos: [
-      { title: 'Kiev', img: '../../img/kiev1.jpeg', album: '../../img/kiev1.jpeg', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: '../../img/kiev1.jpeg', description: 'Kiev, Ukraine' },
       { title: 'Kiev', img: '../../img/kiev2.jpeg', album: '../../img/kiev2.jpeg', description: 'Kiev, Ukraine' },
       { title: 'Kiev', img: '../../img/kiev3.mov', album: '../../img/kiev3.mov', description: 'Kiev, Ukraine' },
       { title: 'Kiev', img: '../../img/kiev4.jpg', album: '../../img/kiev4.jpg', description: 'Kiev, Ukraine' },
