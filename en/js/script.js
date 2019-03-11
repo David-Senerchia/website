@@ -190,8 +190,6 @@ new Vue({
       { title: '', img: '../../img/kiev/kiev4.jpg', photo: '../../img/kiev/kiev4.jpg', description: '' },
       { title: '', img: '../../img/kiev/kiev5.jpeg', photo: '../../img/kiev/kiev5.jpeg', description: '' },
       { title: '', img: '../../img/kiev/kiev6.jpg', photo: '../../img/kiev/kiev6.jpg', description: '' },
-      { title: '', img: '../../img/kiev/kiev3.mov', photo: '../../img/kiev/kiev3.mov', description: '' },
-      { title: '', img: '../../img/kiev/kiev7.mov', photo: '../../img/kiev/kiev7.mov', description: '' },
     ]
   }
 });
@@ -200,13 +198,18 @@ new Vue({
   el: '#warszawa-album',
   data: {
     photos: [
-      { title: '', img: '../../img/warszawa/warszawa1.jpg', photo: '../../img/warszawa/warszawa1.jpeg', description: '' },
-      { title: '', img: '../../img/warszawa/warszawa2.jpeg', photo: '../../img/warszawa/warszawa2.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa1.jpg', photo: '../../img/warszawa/warszawa1.jpg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa2.jpg', photo: '../../img/warszawa/warszawa2.jpg', description: '' },
       { title: '', img: '../../img/warszawa/warszawa3.jpg', photo: '../../img/warszawa/warszawa3.jpg', description: '' },
       { title: '', img: '../../img/warszawa/warszawa4.jpeg', photo: '../../img/warszawa/warszawa4.jpeg', description: '' },
-      { title: '', img: '../../img/warszawa/warszawa5.jpg', photo: '../../img/warszawa/warszawa5.jpg', description: '' },
-      { title: '', img: '../../img/warszawa/warszawa6.mov', photo: '../../img/warszawa/warszawa.mov', description: '' },
-      { title: '', img: '../../img/kiev/kiev7.mov', photo: '../../img/kiev/kiev7.mov', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa5.jpeg', photo: '../../img/warszawa/warszawa5.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa6.jpeg', photo: '../../img/warszawa/warszawa.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa7.jpeg', photo: '../../img/warszawa/warszawa1.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa8.jpeg', photo: '../../img/warszawa/warszawa1.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa9.mov', photo: '../../img/warszawa/warszawa1.mov', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa10.mov', photo: '../../img/warszawa/warszawa1.mov', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa11.jpeg', photo: '../../img/warszawa/warszawa1.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warszawa12.jpg', photo: '../../img/warszawa/warszawa1.jpg', description: '' },
     ]
   }
 });
