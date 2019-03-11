@@ -175,7 +175,7 @@ new Vue({
   el: '#my-albums',
   data: {
     albums: [
-      { title: 'Kiev', img: 'kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: '../../img/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
       { title: 'Photoshoots', img: 'img/albums/photoshoots.jpg', album: '', description: 'Albums coming soon!' },
       { title: 'Nature at UNC', img: 'img/albums/unc.jpg', album: 'http://www.christinaharford.com/pdf-to-dashboard/', description: 'Albums coming soon!' },
     ]
