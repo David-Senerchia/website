@@ -190,7 +190,9 @@ new Vue({
       { title: 'Kiev', img: '../../img/kiev/kiev2.jpeg', photo: '../../img/kiev/kiev2.jpeg', description: 'Kiev, Ukraine' },
       { title: 'Kiev', img: '../../img/kiev/kiev4.jpg', photo: '../../img/kiev/kiev4.jpg', description: 'Kiev, Ukraine' },
       { title: 'Kiev', img: '../../img/kiev/kiev5.jpeg', photo: '../../img/kiev/kiev5.jpeg', description: 'Kiev, Ukraine' },
-      { title: 'Kiev', img: '../../img/kiev/kiev6.jpg', photo: '../../img/kiev/kiev4.jpg', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: '../../img/kiev/kiev6.jpg', photo: '../../img/kiev/kiev6.jpg', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: '../../img/kiev/kiev3.mov', photo: '../../img/kiev/kiev2.mov', description: 'Kiev, Ukraine' },
+      { title: 'Kiev', img: '../../img/kiev/kiev7.mov', photo: '../../img/kiev/kiev2.mov', description: 'Kiev, Ukraine' },
     ]
   }
 });
