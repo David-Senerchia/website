@@ -206,8 +206,6 @@ new Vue({
       { title: '', img: '../../img/warszawa/warsaw6.jpeg', photo: '../../img/warszawa/warsaw6.jpeg', description: '' },
       { title: '', img: '../../img/warszawa/warsaw7.jpeg', photo: '../../img/warszawa/warsaw7.jpeg', description: '' },
       { title: '', img: '../../img/warszawa/warsaw8.jpeg', photo: '../../img/warszawa/warsaw8.jpeg', description: '' },
-      { title: '', img: '../../img/warszawa/warsaw9.mov', photo: '../../img/warszawa/warsaw9.mov', description: '' },
-      { title: '', img: '../../img/warszawa/warsaw10.mov', photo: '../../img/warszawa/warsaw10.mov', description: '' },
       { title: '', img: '../../img/warszawa/warsaw11.jpeg', photo: '../../img/warszawa/warsaw11.jpeg', description: '' },
       { title: '', img: '../../img/warszawa/warsaw12.jpg', photo: '../../img/warszawa/warsaw12.jpg', description: '' },
     ]
