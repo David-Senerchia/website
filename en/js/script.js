@@ -176,7 +176,7 @@ new Vue({
   data: {
     albums: [
       { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
-      { title: 'Photoshoots', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
+      { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
     ]
   }
 });
@@ -208,6 +208,24 @@ new Vue({
       { title: '', img: '../../img/warszawa/warsaw8.jpeg', photo: '../../img/warszawa/warsaw8.jpeg', description: '' },
       { title: '', img: '../../img/warszawa/warsaw11.jpeg', photo: '../../img/warszawa/warsaw11.jpeg', description: '' },
       { title: '', img: '../../img/warszawa/warsaw12.jpg', photo: '../../img/warszawa/warsaw12.jpg', description: '' },
+    ]
+  }
+});
+
+new Vue({
+  el: '#baltic-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/baltic/baltic1.jpg', photo: '../../img/baltic/baltic1.jpg', description: '' },
+      { title: '', img: '../../img/baltic/baltic2.jpeg', photo: '../../img/baltic/baltic2.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic3.jpg', photo: '../../img/baltic/baltic3.jpg', description: '' },
+      { title: '', img: '../../img/baltic/baltic4.jpg', photo: '../../img/baltic/baltic4.jpg', description: '' },
+      { title: '', img: '../../img/baltic/baltic5.jpeg', photo: '../../img/baltic/baltic5.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic6.jpeg', photo: '../../img/baltic/baltic6.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic7.jpeg', photo: '../../img/baltic/baltic7.jpeg', description: '' },
+      { title: '', img: '../../img/wbaltic/baltic8.jpeg', photo: '../../img/baltic/baltic8.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic9.jpeg', photo: '../../img/baltic/baltic9.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic10.jpg', photo: '../../img/baltic/baltic10.jpg', description: '' },
     ]
   }
 });
