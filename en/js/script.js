@@ -177,7 +177,7 @@ new Vue({
     albums: [
       { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
       { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
-      { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
+      { title: 'Baltics', img: '../../img/baltic/baltic1.jpg', album: 'baltic.html', description: 'Lithuania, Latvia, Estonia' },
     ]
   }
 });
