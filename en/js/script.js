@@ -224,7 +224,6 @@ new Vue({
       { title: '', img: '../../img/baltic/baltic5.jpeg', photo: '../../img/baltic/baltic5.jpeg', description: '' },
       { title: '', img: '../../img/baltic/baltic6.jpeg', photo: '../../img/baltic/baltic6.jpeg', description: '' },
       { title: '', img: '../../img/baltic/baltic7.jpeg', photo: '../../img/baltic/baltic7.jpeg', description: '' },
-      { title: '', img: '../../img/wbaltic/baltic8.jpeg', photo: '../../img/baltic/baltic8.jpeg', description: '' },
       { title: '', img: '../../img/baltic/baltic9.jpeg', photo: '../../img/baltic/baltic9.jpeg', description: '' },
       { title: '', img: '../../img/baltic/baltic10.jpg', photo: '../../img/baltic/baltic10.jpg', description: '' },
     ]
