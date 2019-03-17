@@ -233,7 +233,7 @@ new Vue({
 });
 
 new Vue({
-  el: '#warszawa-album',
+  el: '#iceland-album',
   data: {
     photos: [
       { title: '', img: '../../img/iceland/ice1.jpeg', photo: '../../img/iceland/ice1.jpeg', description: '' },
