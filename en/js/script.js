@@ -178,6 +178,8 @@ new Vue({
       { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
       { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
       { title: 'Baltics', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: 'Lithuania, Latvia, Estonia' },
+      { title: 'Iceland', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: 'Reykjavik, Iceland and the Golden Circle' },
+
     ]
   }
 });
@@ -226,6 +228,25 @@ new Vue({
       { title: '', img: '../../img/baltic/baltic7.jpeg', photo: '../../img/baltic/baltic7.jpeg', description: '' },
       { title: '', img: '../../img/baltic/baltic9.jpeg', photo: '../../img/baltic/baltic9.jpeg', description: '' },
       { title: '', img: '../../img/baltic/baltic10.jpg', photo: '../../img/baltic/baltic10.jpg', description: '' },
+    ]
+  }
+});
+
+new Vue({
+  el: '#warszawa-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/iceland/ice1.jpeg', photo: '../../img/iceland/ice1.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice2.jpg', photo: '../../img/iceland/ice2.jpg', description: '' },
+      { title: '', img: '../../img/iceland/ice3.png', photo: '../../img/iceland/ice3.png', description: '' },
+      { title: '', img: '../../img/iceland/ice4.jpeg', photo: '../../img/iceland/ice4.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice5.jpeg', photo: '../../img/iceland/ice5.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice6.jpeg', photo: '../../img/iceland/ice6.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice7.jpeg', photo: '../../img/iceland/ice7.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice8.jpeg', photo: '../../img/iceland/ice8.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice9.jpg', photo: '../../img/iceland/ice9.jpg', description: '' },
+      { title: '', img: '../../img/iceland/ice10.jpeg', photo: '../../img/iceland/ice10.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice11.jpeg', photo: '../../img/iceland/ice11.jpeg', description: '' },
     ]
   }
 });
