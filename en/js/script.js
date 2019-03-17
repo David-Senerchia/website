@@ -237,7 +237,7 @@ new Vue({
   data: {
     photos: [
       { title: '', img: '../../img/iceland/ice1.jpeg', photo: '../../img/iceland/ice1.jpeg', description: '' },
-      { title: '', img: '../../img/iceland/ice2.jpg', photo: '../../img/iceland/ice2.jpg', description: '' },
+      { title: '', img: '../../img/iceland/ice2.jpeg', photo: '../../img/iceland/ice2.jpeg', description: '' },
       { title: '', img: '../../img/iceland/ice3.png', photo: '../../img/iceland/ice3.png', description: '' },
       { title: '', img: '../../img/iceland/ice4.jpeg', photo: '../../img/iceland/ice4.jpeg', description: '' },
       { title: '', img: '../../img/iceland/ice5.jpeg', photo: '../../img/iceland/ice5.jpeg', description: '' },
