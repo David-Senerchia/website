@@ -175,10 +175,10 @@ new Vue({
   el: '#my-albums',
   data: {
     albums: [
-      { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: 'Kiev, Ukraine' },
-      { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: 'Warsaw, Poland' },
-      { title: 'Baltics', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: 'Lithuania, Latvia, Estonia' },
-      { title: 'Iceland', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: 'Reykjavik, Iceland and the Golden Circle' },
+      { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: '' },
+      { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: '' },
+      { title: 'Baltics', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
+      { title: 'Iceland', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: '' },
 
     ]
   }
