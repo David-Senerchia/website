@@ -72,6 +72,7 @@ Vue.component('page-list', {
         { label: 'Accueil', url: indexPrepend + 'fr/index.html' },
         { label: 'À Propos Moi', url: pagePrepend + 'about.html' },
         { label: 'Développement', url: pagePrepend + 'development.html' },
+        { label: 'La Photographie iPhone', url: pagePrepend + 'photography.html' },
         { label: 'Écrits', url: pagePrepend + 'writing.html' },
         { label: 'CV', url: pagePrepend + 'CV.html' },
         { label: 'Contact', url: pagePrepend + 'contact.html' },
@@ -177,6 +178,86 @@ new Vue({
       { title: 'Life in NYC', img: 'img/albums/ny.jpg', album: '', description: 'Albums coming soon!' },
       { title: 'Photoshoots', img: 'img/albums/photoshoots.jpg', album: '', description: 'Albums coming soon!' },
       { title: 'Nature at UNC', img: 'img/albums/unc.jpg', album: 'http://www.christinaharford.com/pdf-to-dashboard/', description: 'Albums coming soon!' },
+    ]
+  }
+});
+
+new Vue({
+  el: '#my-albums',
+  data: {
+    albums: [
+      { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: '' },
+      { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: '' },
+      { title: 'Baltics', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
+      { title: 'Iceland', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: '' },
+
+    ]
+  }
+});
+
+new Vue({
+  el: '#kiev-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/kiev/kiev1.jpeg', photo: '../../img/kiev/kiev1.jpeg', description: '' },
+      { title: '', img: '../../img/kiev/kiev2.jpeg', photo: '../../img/kiev/kiev2.jpeg', description: '' },
+      { title: '', img: '../../img/kiev/kiev4.jpg', photo: '../../img/kiev/kiev4.jpg', description: '' },
+      { title: '', img: '../../img/kiev/kiev5.jpeg', photo: '../../img/kiev/kiev5.jpeg', description: '' },
+      { title: '', img: '../../img/kiev/kiev6.jpg', photo: '../../img/kiev/kiev6.jpg', description: '' },
+    ]
+  }
+});
+
+new Vue({
+  el: '#warszawa-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/warszawa/warsaw1.jpg', photo: '../../img/warszawa/warsaw1.jpg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw2.jpg', photo: '../../img/warszawa/warsaw2.jpg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw3.jpg', photo: '../../img/warszawa/warsaw3.jpg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw4.jpeg', photo: '../../img/warszawa/warsaw4.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw5.jpeg', photo: '../../img/warszawa/warsaw5.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw6.jpeg', photo: '../../img/warszawa/warsaw6.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw7.jpeg', photo: '../../img/warszawa/warsaw7.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw8.jpeg', photo: '../../img/warszawa/warsaw8.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw11.jpeg', photo: '../../img/warszawa/warsaw11.jpeg', description: '' },
+      { title: '', img: '../../img/warszawa/warsaw12.jpg', photo: '../../img/warszawa/warsaw12.jpg', description: '' },
+    ]
+  }
+});
+
+new Vue({
+  el: '#baltic-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/baltic/baltic1.jpg', photo: '../../img/baltic/baltic1.jpg', description: '' },
+      { title: '', img: '../../img/baltic/baltic2.jpeg', photo: '../../img/baltic/baltic2.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic3.jpg', photo: '../../img/baltic/baltic3.jpg', description: '' },
+      { title: '', img: '../../img/baltic/baltic4.jpg', photo: '../../img/baltic/baltic4.jpg', description: '' },
+      { title: '', img: '../../img/baltic/baltic5.jpeg', photo: '../../img/baltic/baltic5.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic6.jpeg', photo: '../../img/baltic/baltic6.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic7.jpeg', photo: '../../img/baltic/baltic7.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic9.jpeg', photo: '../../img/baltic/baltic9.jpeg', description: '' },
+      { title: '', img: '../../img/baltic/baltic10.jpg', photo: '../../img/baltic/baltic10.jpg', description: '' },
+    ]
+  }
+});
+
+new Vue({
+  el: '#iceland-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/iceland/ice1.jpeg', photo: '../../img/iceland/ice1.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice2.jpeg', photo: '../../img/iceland/ice2.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice3.png', photo: '../../img/iceland/ice3.png', description: '' },
+      { title: '', img: '../../img/iceland/ice4.jpeg', photo: '../../img/iceland/ice4.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice5.jpeg', photo: '../../img/iceland/ice5.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice6.jpeg', photo: '../../img/iceland/ice6.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice7.jpeg', photo: '../../img/iceland/ice7.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice8.jpeg', photo: '../../img/iceland/ice8.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice9.jpg', photo: '../../img/iceland/ice9.jpg', description: '' },
+      { title: '', img: '../../img/iceland/ice10.jpeg', photo: '../../img/iceland/ice10.jpeg', description: '' },
+      { title: '', img: '../../img/iceland/ice11.jpeg', photo: '../../img/iceland/ice11.jpeg', description: '' },
     ]
   }
 });
