@@ -175,17 +175,6 @@ new Vue({
   el: '#my-albums',
   data: {
     albums: [
-      { title: 'Life in NYC', img: 'img/albums/ny.jpg', album: '', description: 'Albums coming soon!' },
-      { title: 'Photoshoots', img: 'img/albums/photoshoots.jpg', album: '', description: 'Albums coming soon!' },
-      { title: 'Nature at UNC', img: 'img/albums/unc.jpg', album: 'http://www.christinaharford.com/pdf-to-dashboard/', description: 'Albums coming soon!' },
-    ]
-  }
-});
-
-new Vue({
-  el: '#my-albums',
-  data: {
-    albums: [
       { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: '' },
       { title: 'Varsovie', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: '' },
       { title: 'Les Baltes', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
