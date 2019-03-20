@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <script src="js/onload.js"></script>
+</head>
+  <body id='photography'>
+    <div id="main">
+      <!-- End of header  -->
+      <header>
+        <div id="header">
+          <page-list></page-list>
+          <nav><banner></banner></nav>
+        </div>
+      </header>
+      <!-- End of header  -->
+      <!-- Main content  -->
+      <div class='content'>
+        <div class='page-intro'>
+          <div class='page-title'>La Photographie</div>
+          <div class='spacer'></div>
+          <div class='explanation-container'>
+            Varsovie, Polagne
+          </div>
+        </div>
+        <div class='row'></div>
+        <div class='website-container' >
+          <div class="websites" id="warszawa-album">
+            <div v-for="photo in photos" class='col-lg-4 col-sm-6 website'>
+              <div class='website-title'> {{ photo.title }} </div>
+                <figure class='figure-cls'><img v-bind:src='photo.img' class='design-img img-cls' >
+                  <figcaption class='figcaption-cls'>
+                    <p>
+                      <a v-bind:href='photo.photo'><i class='picture-icon fa fa-picture-o fa-2x' aria-hidden='true' ></i></a>&nbsp;
+                    </p>
+                  </figcaption>
+                </figure>
+              
+            </div>
+          </div>
+        </div>
+        <div class='row'></div>
+      </div>
+      <!-- End of content  -->
+      <div class='footer '></div>
+    </div>
+    <script src='js/script.js'></script>
+  </body>
+</html>
