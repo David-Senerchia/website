@@ -187,9 +187,9 @@ new Vue({
   data: {
     albums: [
       { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: '' },
-      { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: '' },
-      { title: 'Baltics', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
-      { title: 'Iceland', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: '' },
+      { title: 'Varsovie', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: '' },
+      { title: 'Les Baltes', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
+      { title: 'L\'Islande', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: '' },
 
     ]
   }
