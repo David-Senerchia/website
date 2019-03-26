@@ -179,8 +179,8 @@ new Vue({
       { title: 'Varsovie', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: '' },
       { title: 'Les Baltes', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
       { title: 'L\'Islande', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: '' },
-      { title: 'Le Café dans les Cafés Européens', img: '../../img/coffee/raleigh1.jpeg', album: 'coffee.html', description: '' },
-      { title: 'Raleigh', img: '../../img/iceland/ice1.jpeg', album: 'raleigh.html', description: '' },
+      { title: 'Le Café dans les Cafés Européens', img: '../../img/coffee/coffee1.jpeg', album: 'coffee.html', description: '' },
+      { title: 'Raleigh', img: '../../img/raleigh/raleigh1.jpeg', album: 'raleigh.html', description: '' },
 
     ]
   }
@@ -267,8 +267,8 @@ new Vue({
       { title: '', img: '../../img/coffee/coffee8.jpeg', photo: '../../img/kiev/coffee8.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee9.jpeg', photo: '../../img/kiev/coffee9.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee10.jpeg', photo: '../../img/kiev/coffee10.jpeg', description: '' },
-      { title: '', img: '../../img/coffee/coffee11.jpg', photo: '../../img/kiev/coffee11.jpg', description: '' },
-      { title: '', img: '../../img/coffee/coffee12.jpeg', photo: '../../img/kiev/coffee12.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee11.jpeg', photo: '../../img/kiev/coffee11.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee12.jpg', photo: '../../img/kiev/coffee12.jpg', description: '' },
       { title: '', img: '../../img/coffee/coffee13.jpeg', photo: '../../img/kiev/coffee13.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee14.jpg', photo: '../../img/kiev/coffee14.jpg', description: '' },
       { title: '', img: '../../img/coffee/coffee15.jpeg', photo: '../../img/kiev/coffee15.jpeg', description: '' },
