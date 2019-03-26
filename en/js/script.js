@@ -261,6 +261,7 @@ new Vue({
       { title: '', img: '../../img/coffee/coffee2.jpg', photo: '../../img/coffee/coffee2.jpg', description: '' },
       { title: '', img: '../../img/coffee/coffee3.jpg', photo: '../../img/coffee/coffee3.jpg', description: '' },
       { title: '', img: '../../img/coffee/coffee4.jpeg', photo: '../../img/coffee/coffee4.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee24.jpeg', photo: '../../img/coffee/coffee24.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee5.jpeg', photo: '../../img/coffee/coffee5.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee6.jpeg', photo: '../../img/coffee/coffee6.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee7.jpeg', photo: '../../img/coffee/coffee7.jpeg', description: '' },
