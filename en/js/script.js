@@ -254,6 +254,59 @@ new Vue({
 });
 
 new Vue({
+  el: '#coffee-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/coffee/coffee1.jpeg', photo: '../../img/kiev/coffee1.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee2.jpg', photo: '../../img/kiev/coffee2.jpg', description: '' },
+      { title: '', img: '../../img/coffee/coffee3.jpg', photo: '../../img/kiev/coffee3.jpg', description: '' },
+      { title: '', img: '../../img/coffee/coffee4.jpeg', photo: '../../img/kiev/coffee4.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee5.jpeg', photo: '../../img/kiev/coffee5.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee6.jpeg', photo: '../../img/kiev/coffee6.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee7.jpeg', photo: '../../img/kiev/coffee7.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee8.jpeg', photo: '../../img/kiev/coffee8.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee9.jpeg', photo: '../../img/kiev/coffee9.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee10.jpeg', photo: '../../img/kiev/coffee10.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee11.jpg', photo: '../../img/kiev/coffee11.jpg', description: '' },
+      { title: '', img: '../../img/coffee/coffee12.jpeg', photo: '../../img/kiev/coffee12.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee13.jpeg', photo: '../../img/kiev/coffee13.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee14.jpg', photo: '../../img/kiev/coffee14.jpg', description: '' },
+      { title: '', img: '../../img/coffee/coffee15.jpeg', photo: '../../img/kiev/coffee15.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee16.jpeg', photo: '../../img/kiev/coffee16.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee17.jpeg', photo: '../../img/kiev/coffee17.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee18.jpeg', photo: '../../img/kiev/coffee18.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee19.jpeg', photo: '../../img/kiev/coffee19.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee20.jpeg', photo: '../../img/kiev/coffee20.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee21.jpeg', photo: '../../img/kiev/coffee21.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee22.jpeg', photo: '../../img/kiev/coffee22.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee23.jpeg', photo: '../../img/kiev/coffee23.jpeg', description: '' },
+    ]
+  }
+});
+
+new Vue({
+  el: '#raleigh-album',
+  data: {
+    photos: [
+      { title: '', img: '../../img/raleigh/raleigh1.jpeg', photo: '../../img/raleigh/raleigh1.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh2.jpeg', photo: '../../img/raleigh/raleigh2.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh3.jpeg', photo: '../../img/raleigh/raleigh3.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh4.jpeg', photo: '../../img/raleigh/raleigh4.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh5.jpeg', photo: '../../img/raleigh/raleigh5.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh6.jpeg', photo: '../../img/raleigh/raleigh6.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh7.jpeg', photo: '../../img/raleigh/raleigh7.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh8.jpeg', photo: '../../img/raleigh/raleigh8.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh9.jpeg', photo: '../../img/raleigh/raleigh9.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh10.jpeg', photo: '../../img/raleigh/raleigh10.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh11.jpeg', photo: '../../img/raleigh/raleigh11.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh12.jpeg', photo: '../../img/raleigh/raleigh12.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh13.jpeg', photo: '../../img/raleigh/raleigh13.jpeg', description: '' },
+      { title: '', img: '../../img/raleigh/raleigh14.jpeg', photo: '../../img/raleigh/raleigh14.jpeg', description: '' },
+    ]
+  }
+});
+
+new Vue({
   el: '#header'
 });
 
