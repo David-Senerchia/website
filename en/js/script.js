@@ -179,6 +179,8 @@ new Vue({
       { title: 'Warsaw', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: '' },
       { title: 'Baltics', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
       { title: 'Iceland', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: '' },
+      { title: 'Coffee in Cafes', img: '../../img/coffee/raleigh1.jpeg', album: 'coffee.html', description: '' },
+      { title: 'Raleigh', img: '../../img/iceland/ice1.jpeg', album: 'raleigh.html', description: '' },
 
     ]
   }
