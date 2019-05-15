@@ -75,7 +75,7 @@ Vue.component('page-list', {
         { label: 'La Photographie iPhone', url: pagePrepend + 'photography.html' },
         { label: 'Écrits', url: pagePrepend + 'writing.html' },
         { label: 'CV', url: pagePrepend + 'CV.html' },
-        { label: 'Contact', url: pagePrepend + 'contact.html' },
+        { label: 'Coordonnées', url: pagePrepend + 'contact.html' },
       ]
     };
     return data;
