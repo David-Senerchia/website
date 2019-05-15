@@ -177,7 +177,7 @@ new Vue({
     albums: [
       { title: 'Kiev', img: '../../img/kiev/kiev1.jpeg', album: 'kiev.html', description: '' },
       { title: 'Varsovie', img: '../../img/warszawa/warsaw1.jpg', album: 'warszawa.html', description: '' },
-      { title: 'Les Baltes', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
+      { title: 'Pays Baltes', img: '../../img/baltic/baltic1.jpg', album: 'baltics.html', description: '' },
       { title: 'L\'Islande', img: '../../img/iceland/ice1.jpeg', album: 'iceland.html', description: '' },
       { title: 'Le Café dans les Cafés Européens', img: '../../img/coffee/coffee1.jpeg', album: 'coffee.html', description: '' },
       { title: 'Raleigh', img: '../../img/raleigh/raleigh1.jpeg', album: 'raleigh.html', description: '' },
