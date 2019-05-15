@@ -152,7 +152,7 @@ new Vue({
   el: '#my-writing',
   data: {
     writing: [
-      { title: 'The Tools and Tips of Immersive Learning', img: '../../img/travelMap.jpeg', article: pagePrepend + 'The Tools and Tips of Immersive Learning with Revisions.html', description: 'Cet article est basé sur des observations et essais de mes 4 premiers mois en Pologne. Pendent que j\'étudiais, je n\'ai jamais rien trouvé sur internet au sujet d\'apprentissage immersif optimal des langues étrangères, donc j\'ai décidé faire un artile sur le sujet moi-même. À l\'origine, je l\'ai fait afin d\'être presenté aux conférences linguistiques. ' },
+      { title: 'The Tools and Tips of Immersive Learning', img: '../../img/travelMap.jpeg', article: pagePrepend + 'The Tools and Tips of Immersive Learning with Revisions.html', description: 'Cet article est basé sur mes observations et mes rédactions sur mes 4 premiers mois en Pologne. Pendant que j\'étudiais, je n\'ai jamais rien trouvé sur internet sur le sujet de l’apprentissage optimal des langues étrangères en immersion, j\'ai donc décidé faire un article sur le sujet. À l\'origine, je l\'ai fait pour le présenter à des conférences linguistiques. ' },
     
     ]
     
