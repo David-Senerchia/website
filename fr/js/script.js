@@ -69,7 +69,7 @@ Vue.component('page-list', {
   data: function () {
     var data = {
       pages: [
-        { label: 'Accueil', url: indexPrepend + 'fr/index.html' },
+        { label: 'Accueil', url: indexPrepend + 'index.html' },
         { label: 'À Propos de Moi', url: pagePrepend + 'about.html' },
         { label: 'Développement', url: pagePrepend + 'development.html' },
         { label: 'La Photographie iPhone', url: pagePrepend + 'photography.html' },
