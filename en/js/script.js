@@ -281,6 +281,22 @@ new Vue({
       { title: '', img: '../../img/coffee/coffee21.jpeg', photo: '../../img/coffee/coffee21.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee22.jpeg', photo: '../../img/coffee/coffee22.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee23.jpeg', photo: '../../img/coffee/coffee23.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee24.jpg', photo: '../../img/coffee/coffee24.jpg', description: '' },
+      { title: '', img: '../../img/coffee/coffee25.jpeg', photo: '../../img/coffee/coffee25.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee26.jpeg', photo: '../../img/coffee/coffee26.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee27.jpeg', photo: '../../img/coffee/coffee27.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee28.jpeg', photo: '../../img/coffee/coffee28.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee29.jpeg', photo: '../../img/coffee/coffee29.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee30.jpeg', photo: '../../img/coffee/coffee30.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee31.jpeg', photo: '../../img/coffee/coffee31.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee32.jpg', photo: '../../img/coffee/coffee32.jpg', description: '' },
+      { title: '', img: '../../img/coffee/coffee33.jpeg', photo: '../../img/coffee/coffee33.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee34.jpg', photo: '../../img/coffee/coffee34.jpg', description: '' },
+      { title: '', img: '../../img/coffee/coffee35.jpeg', photo: '../../img/coffee/coffee35.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee36.jpeg', photo: '../../img/coffee/coffee36.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee37.jpeg', photo: '../../img/coffee/coffee37.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee38.jpeg', photo: '../../img/coffee/coffee38.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee39.jpeg', photo: '../../img/coffee/coffee39.jpeg', description: '' },
     ]
   }
 });
