@@ -257,9 +257,9 @@ new Vue({
   el: '#coffee-album',
   data: {
     photos: [
-      { title: '', img: '../../img/coffee/coffee1.jpeg', photo: '../../img/coffee/coffee1.jpeg', description: 'Bratislava' },
-      { title: '', img: '../../img/coffee/coffee2.jpg', photo: '../../img/coffee/coffee2.jpg', description: '' },
-      { title: '', img: '../../img/coffee/coffee3.jpg', photo: '../../img/coffee/coffee3.jpg', description: '' },
+      { title: '', img: '../../img/coffee/coffee1.jpeg', photo: '../../img/coffee/coffee1.jpeg', description: 'Reštaurácia Hrad, Bratislava' },
+      { title: '', img: '../../img/coffee/coffee2.jpg', photo: '../../img/coffee/coffee2.jpg', description: 'Green Caffe Nero, Srodmiescie, Warsaw' },
+      { title: '', img: '../../img/coffee/coffee3.jpg', photo: '../../img/coffee/coffee3.jpg', description: 'Green Caffe Nero, Ul Francuska, Warsaw' },
       { title: '', img: '../../img/coffee/coffee4.jpeg', photo: '../../img/coffee/coffee4.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee24.JPG', photo: '../../img/coffee/coffee24.JPG', description: '' },
       { title: '', img: '../../img/coffee/coffee5.jpeg', photo: '../../img/coffee/coffee5.jpeg', description: '' },
