@@ -257,7 +257,7 @@ new Vue({
   el: '#coffee-album',
   data: {
     photos: [
-      { title: '', img: '../../img/coffee/coffee1.jpeg', photo: '../../img/coffee/coffee1.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee1.jpeg', photo: '../../img/coffee/coffee1.jpeg', description: 'Bratislava' },
       { title: '', img: '../../img/coffee/coffee2.jpg', photo: '../../img/coffee/coffee2.jpg', description: '' },
       { title: '', img: '../../img/coffee/coffee3.jpg', photo: '../../img/coffee/coffee3.jpg', description: '' },
       { title: '', img: '../../img/coffee/coffee4.jpeg', photo: '../../img/coffee/coffee4.jpeg', description: '' },
