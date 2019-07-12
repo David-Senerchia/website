@@ -250,7 +250,7 @@ a:hover {
 }
   
 .design-img {
-    height: 350px;
+    height: 400px;
     width: 350px;
     border: 15px solid #75777a;
     border-radius: 5px;
@@ -263,7 +263,7 @@ a:hover {
 }
 
 .websites .figure-cls {
-    height: 350px;
+    height: 400px;
     overflow: hidden;
     position: relative;
     width: 350px;
