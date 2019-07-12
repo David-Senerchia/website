@@ -297,6 +297,8 @@ new Vue({
       { title: '', img: '../../img/coffee/coffee37.jpeg', photo: '../../img/coffee/coffee37.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee38.jpeg', photo: '../../img/coffee/coffee38.jpeg', description: '' },
       { title: '', img: '../../img/coffee/coffee39.jpeg', photo: '../../img/coffee/coffee39.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee40.jpeg', photo: '../../img/coffee/coffee40.jpeg', description: '' },
+      { title: '', img: '../../img/coffee/coffee41.jpeg', photo: '../../img/coffee/coffee41.jpeg', description: '' },
     ]
   }
 });
